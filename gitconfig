@@ -1,0 +1,19 @@
+[user]
+	email = b12031106@gmail.com
+	name = Justin Hsu
+	
+[pretty]
+  log1 = format:%C(yellow)%h%Creset %s - %C(cyan)%an%Creset %Cblue(%cr)%Creset
+  log2 = format:%C(yellow)%h%Creset %C(cyan)%an%Creset %s %Cblue(%cr)%Creset
+
+[alias]
+	co			= checkout
+	ci			= commit
+	st			= status
+	br			= branch
+	sb			= show-branch
+	lo			= log --oneline
+	l2			= log --pretty='format:%C(yellow)%h%Creset %C(cyan)%an%Creset %s %Cblue(%cr)%Creset' --graph				
+
+[color]
+	ui = true
