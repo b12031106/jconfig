@@ -5,6 +5,11 @@ if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
+# try loading git bash completion
+if [ -f ~/.git-completion.bash ]; then
+	. ~/.git-completion.bash
+fi
+
 alias ebash="joe ~/.bash_profile;source ~/.bash_profile;echo update bash_profile"
 alias gfo="git fetch origin --prune"
 
